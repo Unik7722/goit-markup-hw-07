@@ -31,14 +31,35 @@ body{
   }
 
   .container{
-    width: 1158px;
+    /* width: 1158px;*/
+
+    /* -- Basic style -- */
+    min-width: 320px;
+    max-width: 428px;
+    padding: 0 16px;
     margin: 0 auto;
-    padding: 0 15px;
-   
-    
   }
+    /* --Tablet screen >= 768-- */
+    @media only screen and (min-width: 768px) {
+       .container{
+        max-width: 768px;
+      }
+    }
+   /* -- Desctop screen >= 1158-- */
+   @media only screen and (min-width: 1158px) {
+    .container{
+      max-width: 1158px;
+      padding: 0 15px;
+     }
+   }
+   
+  .bottom{
+    padding: 96px 0;
+  }
+  @media only screen and (min-width: 1158px) {
   .bottom{
     padding: 120px 0;
+    }
   }
     /* -- reset start -- */
     h1,h2,h3,h4,h5,h6,p{ margin: 0px;}
@@ -281,19 +302,16 @@ padding-bottom: 24px;
   margin-bottom: 8px;
 }
    
-  
-  
   .content-element{
     display: flex;
     gap: 24px;
     }
 
   .descli{
-
     width: calc((100% - 72px) / 4);
   } 
 
-  .desc-section-icon{
+  /* .desc-section-icon{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -317,7 +335,7 @@ padding-bottom: 24px;
     width: 64px;
     height: 64px;
    
-  }
+  } */
 
 
   .descrep{
