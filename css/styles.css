@@ -316,7 +316,7 @@ padding-bottom: 24px;
   
  @media only screen and (min-width: 768px) {
   .descli{
-    width: calc((100% - 72px) / 2);   
+    width: calc((100% - 24px) / 2);   
    }
  }
 @media only screen and (min-width: 1158px) {
@@ -345,16 +345,19 @@ padding-bottom: 24px;
 
     background-color: var(--text-footer); 
   }
-  .desc-icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 64px;
-    height: 64px;
-   
-  }
 }
- 
+  @media only screen and (min-width: 1158px) {
+    .desc-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 64px;
+      height: 64px;
+      
+    }
+  }
+    
+   
 
   
 
@@ -362,7 +365,7 @@ padding-bottom: 24px;
     color: var(--logo-dark);
     font-weight: 700;
     font-size: 36px;
-    line-height: 0.9;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     display: flex;
     justify-content: center;
@@ -402,22 +405,25 @@ padding-bottom: 24px;
    } 
 
   /* -- Section 3 -- */
-  .gallery-class{
-  padding-bottom: 120px; 
-  }
-  .gallery{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--logo-dark);
-
-    margin-bottom: 72px;
-     }
-  .galleryli{
-    width: calc((100% - 48px) / 3);
+  @media only screen and (min-width: 1158px) {
+    .gallery-class{
+      padding-bottom: 120px; 
+      }
+      .gallery{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--logo-dark);
+    
+        margin-bottom: 72px;
+         }
+      .galleryli{
+        width: calc((100% - 48px) / 3);
+      }
+       
   }
   
   
@@ -427,41 +433,51 @@ padding-bottom: 24px;
   /* -- Section 4 -- */
   .section-color{
     background-color: var(--text-footer); }
-   
+  .team{
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.1;
+      text-align: center;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      color: var(--logo-dark);
   
-  
+      margin-bottom: 72px;
+    }
+  .content-shadow{
+      box-shadow: rgba(46, 47, 66, 0.08);
+      Offset: 0px, 2px;
+        } 
+  .company{
+      background-color:  #F4F4FD
+          }
+      
   /*.content-element (c section 2)*/
   
-
-  .content-shadow{
-   box-shadow: rgba(46, 47, 66, 0.08);
-   Offset: 0px, 2px;
-     } 
-    
-  .company{
-    background-color:  #F4F4FD
-    }
-
   .fon-title{
+    
     background-color: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;}
 
-  .team{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--logo-dark);
+  /* @media only screen and (min-width: 428px) {
+    .fon-title{
+     width: calc((100% - 1*24px) /1); 
+    }
+  } */
+  @media only screen and (min-width: 768px) {
+    .fon-title{
+     width: calc((100% - 24px) / 2);  
+    }
+  }
 
-    margin-bottom: 72px;
+  @media only screen and (min-width: 1158px) {
+    .fon-title{
+      width: calc((100% - 72px) / 4); 
+    }
   }
   
   .card-content{
-   
   padding-top: 32px;
   padding-bottom:  32px;
  }
