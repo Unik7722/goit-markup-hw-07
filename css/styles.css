@@ -324,10 +324,10 @@ padding-bottom: 24px;
     width: calc((100% - 72px) / 4); 
   }
 }
-  /* .desc-section-icon,
+  .desc-section-icon,
   .desc-icon{
-   outline: none; 
-  } */
+   display: none; 
+  }
 @media only screen and (min-width: 1158px) {
   .desc-section-icon{
     display: flex;
