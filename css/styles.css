@@ -733,7 +733,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   @media only screen and (min-width: 768px){
     .footer-style{
-     width: 100%; 
+      max-width: 584px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 72px 24px;
+      margin: 0 auto;   
      height: 456px;
     }
    .footer-style-item{
