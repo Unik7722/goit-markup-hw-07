@@ -30,6 +30,19 @@
           <li class="header-nav-item"><a href="tel:+110001111111" class="link contact-link" >+11 (000) 111-11-11</a></li>
         </ul>
       </address>
+      <button type="button">
+        <svg class="" width="32" height="22">
+          <use href="./icons/hamburger.svg"></use>
+        </svg>
+      </button>
+       <!-- Modal window hamburger
+     <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close-btn" type="button" data-modal-close>
+          <svg class="modal-close-icon" width="32" height="22">
+            <use href="./icons/hamburger.svg"></use>
+          </svg>
+        </button> -->
     </div>
     </header>
     <!-- Section 1 hero -->
@@ -117,9 +130,18 @@
           <div class="container">
           <h2 class= "gallery">What are we doing</h2>
         <ul class="content-element list">
-          <li class="galleryli"><img src="./images/img1.jpg" alt="Foto" width="360" /></li>
-          <li class="galleryli"><img src="./images/img2.jpg" alt="Foto" width="360" /></li>
-          <li class="galleryli"><img src="./images/img3.jpg" alt="Foto" width="360" /></li>
+          <li class="galleryli">
+            <img srcset="./images/img1.jpg  1x"
+                 srcset="./images/img1-2x.jpg  2x"
+             src="./images/img1.jpg" alt="Foto" width="360" /></li>
+          <li class="galleryli">
+            <img srcset="./images/img2.jpg   1x"
+                 srcset="./images/img2-2x.jpg   2x"
+            src="./images/img2.jpg" alt="Foto" width="360" /></li>
+          <li class="galleryli">
+            <img srcset="./images/img3.jpg   1x"
+                 srcset="./images/img3-2x.jpg   2x"
+             src="./images/img3.jpg" alt="Foto" width="360" /></li>
         </ul>
       </div>
         </section>
@@ -131,7 +153,9 @@
           <h2 class="team">Our Team</h2>
           <ul class="content-element content-elem content-shadow list">
             <li  class="fon-title">
-              <img src="./images/img4.jpg" alt="Foto" width="264" />
+              <img srcset="./images/img4.jpg  1x"
+                   srcset="./images/img4-2x.jpg  2x"     
+              src="./images/img4.jpg" alt="Foto" width="264" />
               <div class="card-content " >
               <h3 class="team-title">Mark Guerrero</h3>
               <p class= "team-title-text">Product Designer</p>
@@ -170,7 +194,9 @@
               </div>            
             </li>
             <li class="fon-title">
-              <img src="./images/img5.jpg" alt="Foto" width="264" />
+              <img srcset="./images/img5.jpg  1x"
+                   srcset="./images/img5-2x.jpg  2x"
+              src="./images/img5.jpg" alt="Foto" width="264" />
              <div class="card-content">              
               <h3 class="team-title">Tom Ford</h3>
               <p class="team-title-text" >Frontend Developer</p>
@@ -209,7 +235,9 @@
             </div>
             </li>
             <li class="fon-title">
-              <img src="./images/img6.jpg" alt="Foto" width="264" />
+              <img srcset="./images/img6.jpg  1x"
+                   srcset="./images/img6-2x.jpg  2x"
+              src="./images/img6.jpg" alt="Foto" width="264" />
              <div class="card-content">
               <h3 class="team-title">Camila Garcia</h3>
               <p class="team-title-text" >Marketing</p>
@@ -248,7 +276,9 @@
             </div>
             </li>
             <li class="fon-title">
-              <img src="./images/img7.jpg" alt="Foto" width="264" />
+              <img srcset="./images/img7.jpg  1x"
+                   srcset="./images/img7-2x.jpg  2x"
+              src="./images/img7.jpg" alt="Foto" width="264" />
             <div class="card-content">
               <h3 class="team-title">Daniel Wilson</h3>
               <p class="team-title-text" >UI Designer</p>
