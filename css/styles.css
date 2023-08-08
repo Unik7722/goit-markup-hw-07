@@ -178,10 +178,10 @@ display: none;
 .header-container{
   display: flex;
   align-items: center;
-  margin: auto;
+  margin: 0;
      }
 
-  .header-nav-cont{
+  .header-nav{
     display: flex;
     align-items: center;
       }
@@ -191,6 +191,9 @@ display: none;
     flex-direction: column;
     margin-bottom: 12px;
     padding-left: 122px;
+    margin: 0;
+    gap:inherit;
+
   }
    
     
@@ -204,6 +207,7 @@ display: none;
     display: flex;
     flex-direction: inherit;
     margin-bottom: 0;
+    margin: auto;
     padding-left:0;
     gap: 40px;
   }
